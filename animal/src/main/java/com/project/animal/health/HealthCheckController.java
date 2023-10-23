@@ -15,6 +15,6 @@ public class HealthCheckController {
     })
     @GetMapping("/v1/api/health")
     public String healthCheck(){
-        return "1";
+        return "11";
     }
 }
